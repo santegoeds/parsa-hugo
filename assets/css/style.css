@@ -34,7 +34,7 @@ p, .paragraph {
 h1, h2, h3, h4, h5, h6 {
   color: #000000;
   font-family: "hanskendrick";
-  font-weight: 600;
+  /* font-weight: 600; */
   line-height: 1.2;
 }
 
@@ -454,6 +454,12 @@ textarea.form-control {
 
 .navbar .nav-item .nav-link {
   padding: 20px 15px;
+}
+
+.navbar-brand {
+  font-size: 50px;
+  color: #8c871f;
+  font-weight: bold;
 }
 
 @media (max-width: 991px) {
