@@ -8,17 +8,11 @@ VERSION:	Versoin Number
 [TABLE OF CONTENTS]
 -------------------------------------------------------------------*/
 /*  typography */
-@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|Playfair+Display:400,700");
-@font-face {
-  font-family: 'hanskendrick';
-  src: url("../fonts/hanskendrick-regular-webfont.woff") format("woff");
-  font-style: normal;
-  font-display: swap;
-}
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
 
 body {
   line-height: 1.5;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Arial", sans-serif;
   -webkit-font-smoothing: antialiased;
   font-size: 15px;
   color: #585757;
@@ -28,12 +22,13 @@ p, .paragraph {
   font-weight: 400;
   font-size: 15px;
   line-height: 1.5;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Arial", sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color: #000000;
-  font-family: "hanskendrick";
+  /* color: #000000; */
+  color: #8c871f;
+  font-family: "Lora", serif;
   /* font-weight: 600; */
   line-height: 1.2;
 }
@@ -77,7 +72,7 @@ h6, .h6 {
 /* Button style */
 .btn {
   font-size: 15px;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Arial", sans-serif;
   text-transform: capitalize;
   padding: 8px 20px;
   border-radius: 0;
@@ -346,11 +341,13 @@ a.text-dark:hover {
 }
 
 .text-dark {
-  color: #000000 !important;
+  /* color: #000000 !important; */
+  color: #8c871f !important;
+
 }
 
 .font-secondary {
-  font-family: "hanskendrick" !important;
+  font-family: "Arial", sans-serif !important;
 }
 
 .mb-10 {
@@ -460,6 +457,7 @@ textarea.form-control {
   font-size: 50px;
   color: #8c871f;
   font-weight: bold;
+  font-family: "Lora", serif;
 }
 
 @media (max-width: 991px) {
@@ -590,7 +588,7 @@ textarea.form-control {
 }
 
 .pagination .page-item .page-link {
-  font-family: "hanskendrick";
+  font-family: "Arial", sans-serif;
   font-size: 30px;
   border: 0;
   color: #585757;
