@@ -30,7 +30,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #8c871f;
   font-family: "Lora", serif;
   /* font-weight: 600; */
-  line-height: 1.2;
+  line-height: 1.1;
 }
 
 h1, .h1 {
@@ -66,7 +66,7 @@ h5, .h5 {
 }
 
 h6, .h6 {
-  font-size: 16px;
+  font-size: 12px;
 }
 
 /* Button style */
