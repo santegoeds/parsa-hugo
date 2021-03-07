@@ -449,8 +449,13 @@ textarea.form-control {
   top: 0;
 }
 
+.navbar {
+  margin-top: 5rem;
+}
+
 .navbar .nav-item .nav-link {
   padding: 20px 15px;
+  font-size: 16px;
 }
 
 .navbar-brand {
