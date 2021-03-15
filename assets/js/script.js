@@ -1,13 +1,15 @@
 (function ($) {
   'use strict';
 
-  // Preloader js    
+  // Preloader js
   $(window).on('load', function () {
     $('.preloader').fadeOut(300);
   });
 
   // headroom js
-  $('.navigation').headroom();
+  // $('.navigation').headroom();
+
+  $('nav').headroom();
 
   // Background-images
   $('[data-background]').each(function () {
