@@ -270,8 +270,8 @@ a.text-dark:hover {
 }
 
 .section {
-  padding-top: 90px;
-  padding-bottom: 90px;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .section-sm {
@@ -450,8 +450,9 @@ textarea.form-control {
 }
 
 .navbar .nav-item .nav-link {
-  padding: 20px 15px;
-  font-size: 16px;
+  padding: 20px 8px;
+  font-size: 15px;
+  font-weight: 700;
 }
 
 .navbar-brand {
